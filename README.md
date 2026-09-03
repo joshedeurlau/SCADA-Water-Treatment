@@ -15,7 +15,7 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 * **Design Style:** ISA-101
 * **Network:** Managed IP address assignment and local port routing for the Modbus TCP driver.
 
-* ## Key Engineering Features
+## Key Engineering Features
   - I/O inputs: linked Modbus Discrete Inputs (DI) and Holding Registers (HR) on CODESYS to their corresponding Ignition tags.
   - User-Defined Types (UDTs) to standardize pump instances to ensure it's scalable.
   - Implemented retentive memory in CODESYS for pump runtime even when the PLC is shut-down and turned back on again.
