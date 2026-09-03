@@ -21,8 +21,8 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
   - Implemented retentive memory in CODESYS for pump runtime even when the PLC is shut-down and turned back on again.
   - Emergency Stop logic as a top-priority Normally Closed (NC) rung in the PLC.
   - Real-time alarming
-  - Used a data historian to create a trend chart that visualizes tank levels overtime.
-  - Used map transforms and property bindings to change PLC booleans into easily readable status colors.
+  - Data historian to create a Trend Chart that visualizes tank levels overtime.
+  - Map transforms and Property Bindings to change PLC booleans into easily readable status colors.
   - Troubleshot data collection and tag errors between the PLC and HMI during startup and the simulation.
  
 ## Project Demonstrations
