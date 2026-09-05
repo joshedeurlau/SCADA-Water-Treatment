@@ -25,7 +25,7 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
   - Map transforms and Property Bindings to change PLC booleans into easily readable status colors.
   - Troubleshot data collection and tag errors between the PLC and HMI during startup and the simulation.
  
-## Project Demonstrations
+## Project Demonstrations (GIFs Show Bad Quality, go to the Assets Folder to View it Properly)
 
 ### 1. Process Lifecycle & Trending
 ![Full_Process](assets/01_Full_Process.gif)
