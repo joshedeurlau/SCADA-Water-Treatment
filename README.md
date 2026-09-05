@@ -28,7 +28,7 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 ## Project Demonstrations
 
 ### 1. Process Lifecycle & Trending
-<img src="./assets/01_Full_Process" alt="Full Process" width="500">
+<img src="https://raw.githubusercontent.com/joshedeurlau/SCADA-Water-Treatment/main/assets/01_Full_Process.gif" width="500">
 *Demonstrates normal operation phases including intake, tank fill, discharge, dynamic flow rate monitoring, and live historical data plotting.*
 
 ### 2. Safety Override (E-Stop Interlock)
