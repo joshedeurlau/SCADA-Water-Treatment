@@ -29,7 +29,7 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 
 ### 1. Process Lifecycle & Trending
 ![Full_Process](assets/01_Full_Process.gif)
-- Normal Operation phases, alongside Flow Rate monitoring and a Historical Data Plotting Graph
+*Normal Operation phases, alongside Flow Rate monitoring and a Historical Data Plotting Graph*
 
 ### 2. Safety Override (E-Stop Interlock)
 `[Insert Link/GIF to Video 2]`
