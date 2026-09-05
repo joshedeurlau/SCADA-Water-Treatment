@@ -28,7 +28,7 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 ## Project Demonstrations
 
 ### 1. Process Lifecycle & Trending
-`(assets/Full_Process.gif)`
+(assets/01_Full_Process.gif)
 *Demonstrates normal operation phases including intake, tank fill, discharge, dynamic flow rate monitoring, and live historical data plotting.*
 
 ### 2. Safety Override (E-Stop Interlock)
