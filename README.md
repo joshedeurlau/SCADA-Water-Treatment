@@ -29,14 +29,14 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 
 ### 1. Process Lifecycle & Trending
 ![Full_Process](assets/01_Full_Process.gif)
-- Normal Operation phases, alongside Flow Rate monitoring and a Historical Data Plotting Graph*
+- Normal Operation phases, alongside Flow Rate monitoring and a Historical Data Plotting Graph
 
-### 2. Safety Override (E-Stop Interlock)
-`[Insert Link/GIF to Video 2]`
-*Demonstrates the Start -> E-Stop -> Reset sequence, proving the hard-coded PLC interlock successfully overrides active SCADA pump commands.*
+### 2. E-Stop Interlock and Reset
+![Safety Override](assets/02_E_Stop_and_Reset.gif)
+- Start -> E-Stop -> Reset sequence, the PLC interlock overrides the SCADA "Start" button
 
-### 3. Diagnostic Alarms (Split-Screen)
-`[Insert Link/GIF to Video 3]`
-*A split-screen view showing the CODESYS ladder logic triggering the high-level overflow sensor and the resulting critical fault appearing in the Ignition Alarm Status Table.*
+### 3. Overflow at 98% with the PLC logic in the Split Screen
+![Alarm](assets/01_Full_Process.gif)
+- Shows the CODESYS ladder logic triggering the high level overflow sensor and the resulting critical alarm shown in red in the Ignition Alarm Status Table
 
 ---
