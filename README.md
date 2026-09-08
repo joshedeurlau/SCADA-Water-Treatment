@@ -32,7 +32,7 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 - Normal Operation phases, alongside Flow Rate monitoring and a Historical Data Plotting Graph
 
 ### 2. E-Stop Interlock and Reset
-![Safety Override](assets/02_E_Stop_and_Reset.gif)
+![Safety Override](assets/02_EStop_and_Reset.gif)
 - Start -> E-Stop -> Reset sequence, the PLC interlock overrides the SCADA "Start" button
 
 ### 3. Overflow at 98% with the PLC logic in the Split Screen
