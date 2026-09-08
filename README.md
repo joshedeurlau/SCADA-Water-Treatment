@@ -35,7 +35,7 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 ![Safety Override](assets/02_EStop_and_Reset.gif)
 - Start -> E-Stop -> Reset sequence, the PLC interlock overrides the SCADA "Start" button
 
-### 3. Overflow at 98% with the PLC logic in the Split Screen
+### 3. Overflow at 99% with the PLC logic in the Split Screen
 ![Alarm](assets/03_Overflow_Alarm.gif)
 - Shows the CODESYS ladder logic triggering the high level overflow sensor and the resulting critical alarm shown in red in the Ignition Alarm Status Table
 
