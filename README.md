@@ -40,8 +40,10 @@ The PLC logic uses sequential numbered states to determine the logic sequence.
 - Shows the CODESYS ladder logic triggering the high level overflow sensor and the resulting critical alarm shown in red in the Ignition Alarm Status Table
 
 ## Modbus TCP I/O Mapping and Rungs of PLC
-![IO Mapping](documentation/CODESYS_Modbus_Config.pdf)
-- Clean PDF of internal PLC variables to Modbus holding registers and discrete coils for SCADA polling
-![PLC Rungs](documentation/CODESYS_PLC_Rung.pdf)
-- PDF of all the Rungs (Ladder Logic)
+
+* [**View Modbus I/O Mapping (PDF)**](documentation/CODESYS_Modbus_Config.pdf)
+  PDF of the PLC variables mapped to Modbus holding registers and discrete coils for SCADA polling
+
+* [**View CODESYS Ladder Logic (PDF)**](documentation/CODESYS_PLC_Rung.pdf)
+  Full documentation of all PLC rungs, which includes the state machine and E-Stop interlock.
 
